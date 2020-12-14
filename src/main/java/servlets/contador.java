@@ -56,8 +56,7 @@ public class contador extends HttpServlet {
         
         //Mandamos el mensaje al navegador
         response.setContentType("text/html;charset=UTF-8");
-        out.print("Contador de visitas de cada cliente:" + contador);
-            out.println("<!DOCTYPE html>");
+        out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet contador</title>");            
